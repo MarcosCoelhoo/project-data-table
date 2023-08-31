@@ -2,7 +2,6 @@ import './App.css';
 import Header from './components/Header';
 import Table from './components/Table';
 import imgChart from './assets/chart.png';
-import { DbStorage } from './dbContext';
 import React from 'react';
 
 function App() {

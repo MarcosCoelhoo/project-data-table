@@ -1,7 +1,6 @@
 import React from 'react';
 
 import styles from '../styles/Header.module.css';
-import { DbContext } from '../dbContext';
 
 const Header = ({ onDataSubmit }) => {
   const [firstName, setFirstName] = React.useState('');

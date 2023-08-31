@@ -1,7 +1,6 @@
 import React from 'react';
 
 import styles from '../styles/Table.module.css';
-let count = 0;
 
 const Table = ({ data }) => {
   return (
@@ -25,13 +24,6 @@ const Table = ({ data }) => {
           </tr>
         ))}
       </tbody>
-
-      {/* <tr className={styles.row}>
-        <td className={styles.data}>1</td>
-        <td className={styles.data}>Carlos</td>
-        <td className={styles.data}>Moura</td>
-        <td className={styles.data}>5%</td>
-      </tr> */}
     </table>
   );
 };
